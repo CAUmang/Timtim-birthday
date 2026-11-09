@@ -21,7 +21,7 @@ window.siteConfig = {
   },
   profiles: [
     { name: "TIMTIM 😍", label: " ", image: "assets/profiles/Timtim.jpg", primary: true },
-    { name: "Birthday girl 💃", label: " ", image: "assets/profiles/Birthday-girl.jpg" },
+    { name: "Birthday girl 💃", label: " ", image: "assets/profiles/Birthday-girl.JPG" },
     { name: "Fam Jam ❤️", label: "", image: "assets/profiles/Family.jpg" },
     { name: "Lifelines 🫰🏻", label: "", image: "assets/profiles/Lifelines.jpg" }
   ],
