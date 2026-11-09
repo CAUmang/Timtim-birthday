@@ -33,7 +33,7 @@ window.siteConfig = {
   },
   ending: {
     title: "One More Thing...",
-    photos: ["assets/photos/Memory.jpg", "assets/photos/memory2.jpg", "assets/photos/memory3.jpg", "assets/photos/memory4.jpg"],
+    photos: ["assets/photos/Memory.JPG", "assets/photos/memory2.JPG", "assets/photos/memory3.JPG", "assets/photos/memory4.JPG"],
     messages: ["Some stories are worth rewatching.", "Some people make every season better.", "And fortunately...", "Your story is nowhere near the finale.", "Make the most out of rest of the story..!!"]
   },
 
