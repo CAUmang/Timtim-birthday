@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#080808"><title>BirthdayFlix</title><link rel="stylesheet" href="styles.css"></head><body>
+<div id="privateGate" class="private-gate">
+  <div class="private-gate-card">
+    <div class="private-lock">✦</div>
+    <p class="private-eyebrow">PRIVATE PREMIERE</p>
+    <h1>This screening is reserved for one special guest.</h1>
+    <p class="private-copy">Enter the premiere code to continue.</p>
+    <form id="privateGateForm" novalidate>
+      <label class="sr-only" for="privateCode">Premiere code</label>
+      <input id="privateCode" type="password" autocomplete="off" placeholder="Premiere code" maxlength="64">
+      <button type="submit">Unlock premiere</button>
+      <p id="privateGateError" class="private-error" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
+<div id="loader" class="loader"><button id="enterBtn" class="enter-btn"><span>Enter the premiere</span><small>Sound on</small></button><div id="intro" class="intro hidden"><div class="nmark">N</div><canvas id="streaks"></canvas></div></div>
+<section id="profiles" class="screen profiles hidden" aria-labelledby="watchTitle"><h1 id="watchTitle">Happy birthday girl..!!</h1><div id="profileGrid" class="profile-grid"></div><button id="profileContinue" class="profile-continue" type="button">Have a good one..!</button></section>
+<div id="app" class="hidden"><header id="nav"><a class="brand" href="#">BIRTHDAYFLIX</a><nav><a href="#home">Home</a><a href="#memories">Memories</a><a href="#story">Our Story</a><a href="#messages">Messages</a><a href="#bloopers">Bloopers</a><a href="#coming">Coming Soon</a></nav><img id="navAvatar" alt="Profile"></header>
+<main><section id="home" class="hero"><div class="hero-bg"></div><div class="hero-content"><p class="kicker"></p><h1></h1><p class="description"></p><div class="meta"><b>98% Match</b><span class="season"></span><span class="year"></span><span class="badge">Birthday Special</span></div><div class="actions"><button id="playTrailer" class="primary">▶ Play Birthday Trailer</button><button id="moreInfo" class="secondary">ⓘ More Info</button></div></div></section><div id="rows" class="rows"></div></main></div>
+<div id="welcome" class="welcome hidden" aria-live="polite"></div>
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-panel"><button class="close" aria-label="Close">×</button><div id="modalHero" class="modal-hero"></div><div class="modal-copy"><div class="modal-actions"><button id="modalPlay" class="round" aria-label="Play">▶</button></div><h2 id="modalTitle"></h2><div id="modalMeta" class="meta"></div><p id="modalDescription"></p><div id="gallery" class="gallery"></div></div></div></div>
+<div id="player" class="player hidden"><button id="closePlayer" class="player-close" aria-label="Close video">← Back</button><div class="player-title"></div><video id="video" controls playsinline></video><div id="videoError" class="media-error hidden"></div></div>
+<div id="ending" class="ending hidden"><div class="ending-bg"></div><div class="ending-shade"></div><div class="ending-copy"><p id="endingMessage"></p><h1 id="endingTitle" class="hidden"></h1><h2 id="endingNext" class="hidden"></h2><button id="replayEnding" class="primary hidden">Replay</button><button id="exitEnding" class="secondary hidden">Back to Home</button></div></div>
+<script src="config.js"></script><script src="app.js"></script></body></html>
